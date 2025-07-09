@@ -79,9 +79,9 @@ const Navbar = () => {
                 </div>
                 <div id="hs-navbar-example" ref={hsNav} className="hidden transition-max-height duration-300 ease-in-out overflow-hidden sm:max-h-none sm:block ${isOpen ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0'}" aria-labelledby="hs-navbar-example-collapse">
                     <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
-                        <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 link" href="#">Account</a>
-                        <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 link" href="#">Work</a>
-                        <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 link" href="#">Blog</a>
+                        <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 transition-colors duration-300 transform link" href="#">Account</a>
+                        <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 transition-colors duration-300 transform link" href="#">Work</a>
+                        <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 transition-colors duration-300 transform link" href="#">Blog</a>
                     </div>
                 </div>
             </nav>
