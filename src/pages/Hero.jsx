@@ -10,7 +10,7 @@ const Hero = () => {
                 <div className="items-center lg:flex">
                     <div className="w-full lg:w-1/2">
                         <div className="lg:max-w-lg">
-                            <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">Best place to choose <br/> your <span className="text-gray-500 ">elements</span></h1>
+                            <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">Best place to choose <br/> your <span className="text-red-400 ">elements</span></h1>
                             
                             <p className="mt-3 text-gray-600 dark:text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum ullam voluptas molestias dolores doloremque atque quibusdam sint? Dolore, minus recusandae accusantium facilis autem maxime, molestiae quis exercitationem doloremque, veniam commodi!
                             Adipisci eaque debitis culpa rerum odio excepturi illo architecto laboriosam dolore? Quia, dolorem odit fugiat nostrum eveniet beatae impedit sit modi quo incidunt, explicabo ullam officiis recusandae aperiam aut! Omnis.</p>

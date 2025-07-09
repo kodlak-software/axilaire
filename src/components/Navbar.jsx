@@ -1,6 +1,8 @@
 import React,{useState, useEffect, useRef} from 'react';
 import {gsap} from 'gsap'
 
+import Logo from '../media/img/logo.png'
+
 const Navbar = () => {
 
     const hsNav = useRef();
@@ -60,11 +62,12 @@ const Navbar = () => {
 
 
     return (
-        <header ref={navigation} className=" backdrop-blur-md flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white/30 text-sm py-3 navbar fixed top-0">
+        <header ref={navigation} className=" backdrop-blur-md flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white/30 text-sm py-3 navbar fixed top-0 z-50">
             <nav className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between">
                 <div className="flex items-center justify-between">
+                    <img src={Logo} width="40" alt="" />
                 <a className="flex-none text-xl font-semibold dark:text-white focus:outline-hidden focus:opacity-80 link" href="#" aria-label="Brand">
-                    Brand
+                    Axilaire
                 </a>
                 <div className="sm:hidden">
                     <button type="button" onClick={toggleNavbar}  className="hs-collapse-toggle relative size-9 flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-transparent dark:border-neutral-700 dark:text-white dark:hover:bg-white/10 dark:focus:bg-white/10" id="hs-navbar-example-collapse" aria-expanded="false" aria-controls="hs-navbar-example" aria-label="Toggle navigation" data-hs-collapse="#hs-navbar-example">
