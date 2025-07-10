@@ -82,7 +82,7 @@ const Navbar = () => {
                         <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 transition-colors duration-300 transform link" href="#">Account</a>
                         <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 transition-colors duration-300 transform link" href="#">Work</a>
                         <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 transition-colors duration-300 transform link" href="#">Blog</a>
-                        <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 transition-colors duration-300 transform link" href="https://intevia.fr/#contact">Conat</a>
+                        <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 transition-colors duration-300 transform link" href="https://intevia.fr/#contact">Contact</a>
                     </div>
                 </div>
             </nav>
